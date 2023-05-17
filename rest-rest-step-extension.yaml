@@ -1,0 +1,11 @@
+name: Config
+id: rest-rest-extension-step
+type: step
+url: https://kaotoio.github.io/step-extension-repository/rest-rest/remoteEntry.js
+module: './RestStep'
+scope: 'restStep'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_IDENTIFIER
+      parameter: CAMEL-REST-DSL
